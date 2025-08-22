@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI CFO — Finance & Forecasting</title>
+  <meta name="description" content="Meet your AI CFO: crystal-clear cash flow, risk radar, and real-time insights without the $250k salary."/>
+  <style>
+    :root{--brand:#16a34a;--bg:#081310;--card:#0e201a;--text:#eafff6;--muted:#a7d7c4}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Arial,sans-serif;background:linear-gradient(180deg,#081310,#0a1713 50%,#0c1b17);color:var(--text);line-height:1.6}
+    .wrap{max-width:1100px;margin:0 auto;padding:64px 20px}
+    header{text-align:center;padding:56px 20px 24px}
+    .eyebrow{letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+    h1{font-size: clamp(2rem,4vw,3rem); margin:.35em 0 .2em}
+    .sub{color:var(--muted);max-width:760px;margin:0 auto}
+    .cta{display:inline-block;margin-top:24px;background:var(--brand);padding:14px 22px;border-radius:10px;font-weight:700;color:#04260e}
+    .cta:hover{filter:brightness(1.05)}
+    .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:28px}
+    .card{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:20px}
+    h2{font-size:1.4rem;margin:0 0 .4rem}
+    ul{margin:.4rem 0 0;padding-left:20px}
+    .split{display:grid;gap:28px;grid-template-columns:1.1fr .9fr;align-items:start;margin-top:40px}
+    .panel{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:22px}
+    .small{font-size:.9rem;color:var(--muted)}
+    .back{display:inline-block;margin-top:14px;color:#c6ffe3}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">AI Finance & Forecasting</div>
+      <h1>Meet Your AI CFO — Always On, Always Accurate</h1>
+      <p class="sub">Forecast cash flow, spot risks, and make smarter decisions with real-time visibility and AI precision — without the $250K salary.</p>
+      <a class="cta" href="#demo">Get My AI CFO Today</a>
+      <div><a class="back" href="index.html">← Back to Hub</a></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="grid">
+      <div class="card">
+        <h2>What You’ll See</h2>
+        <ul>
+          <li><strong>Crystal-clear cash flow</strong> across weeks and quarters.</li>
+          <li><strong>Risk radar</strong> flags churn, AR issues, and spend spikes.</li>
+          <li><strong>Scenario planning</strong>: best/worst cases with levers.</li>
+          <li><strong>Daily brief</strong> to your inbox or Slack at 8 AM.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Where ROI Comes From</h2>
+        <ul>
+          <li>Earlier detection of cash crunches and revenue shortfalls.</li>
+          <li>Automated variance analysis and anomaly alerts.</li>
+          <li>Spend optimization and vendor consolidation insights.</li>
+          <li>Pricing and margin recommendations by product/segment.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Connect Your Data</h2>
+        <ul>
+          <li>QuickBooks / Xero / Netsuite</li>
+          <li>Stripe / Chargebee / Recurly</li>
+          <li>Salesforce / HubSpot</li>
+          <li>Bank feeds & spreadsheets</li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="split" id="demo">
+      <div class="panel">
+        <h2>Request a Finance Readiness Check</h2>
+        <p class="small">We’ll verify data quality and show you what your first 30 days of insights will look like.</p>
+        <form action="#" method="post">
+          <label class="small">Name</label>
+          <input type="text" name="name" placeholder="Your name" required />
+          <label class="small">Work Email</label>
+          <input type="email" name="email" placeholder="you@company.com" required />
+          <label class="small">Primary tools</label>
+          <input type="text" name="stack" placeholder="e.g., QuickBooks + Stripe + HubSpot" />
+          <button class="cta" type="submit" style="margin-top:14px;">Show Me My Numbers</button>
+        </form>
+      </div>
+
+      <div class="panel">
+        <h2>Under the Hood</h2>
+        <ul>
+          <li>Ingests GL, billing, pipeline, and bank data securely.</li>
+          <li>Runs forecasting models and variance checks nightly.</li>
+          <li>Surfaces insights with explanations and recommended actions.</li>
+          <li>Exports to slides, spreadsheets, and dashboards automatically.</li>
+        </ul>
+        <p class="small">Enterprise-grade security, SOC2-aligned controls, and audit trails available.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap" style="text-align:center;color:#a7d7c4;padding-bottom:40px;">
+    © 2025 Transform with AI
+  </footer>
+</body>
+</html>
