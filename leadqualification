@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Sales Closers & Lead Qualifiers</title>
+  <meta name="description" content="Close more deals while you sleep. AI qualifies leads, engages prospects, and books meetings automatically."/>
+  <style>
+    :root{--brand:#4f46e5;--bg:#0b1020;--card:#0f162e;--text:#eaf0ff;--muted:#a9b3d6;}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Arial,sans-serif;background:linear-gradient(180deg,#0b1020,#0b1020 40%,#0e1530);color:var(--text);line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:1100px;margin:0 auto;padding:64px 20px}
+    header{padding:56px 20px 24px;text-align:center}
+    .eyebrow{letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+    h1{font-size: clamp(2rem, 4vw, 3rem); margin:.35em 0 .2em}
+    .sub{color:var(--muted);max-width:760px;margin:0 auto}
+    .cta{display:inline-block;margin-top:24px;background:var(--brand);padding:14px 22px;border-radius:10px;font-weight:700}
+    .cta:hover{filter:brightness(1.05)}
+    .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:28px}
+    .card{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:20px}
+    h2{font-size:1.4rem;margin:0 0 .4rem}
+    ul{margin:.4rem 0 0;padding-left:20px}
+    .hero{background:radial-gradient(80% 60% at 50% 0, rgba(79,70,229,.25), transparent)}
+    .footer{padding:40px 20px;text-align:center;color:var(--muted)}
+    .back{display:inline-block;margin-top:8px;color:#c7ceff}
+    .split{display:grid;gap:28px;grid-template-columns:1.1fr .9fr;align-items:center;margin-top:40px}
+    .panel{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:22px}
+    .label{font-size:.9rem;color:var(--muted);margin-bottom:6px}
+    input,textarea{width:100%;padding:12px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:#0b1226;color:var(--text)}
+    textarea{min-height:120px;resize:vertical}
+    .small{font-size:.9rem;color:var(--muted)}
+    .pill{display:inline-block;font-size:.85rem;color:#cbd5ff;border:1px solid rgba(255,255,255,.15);padding:6px 10px;border-radius:999px;margin:6px 6px 0 0}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="eyebrow">AI Sales Closers & Lead Qualifiers</div>
+      <h1>Close More Deals — Even While You Sleep</h1>
+      <p class="sub">An AI-powered sales assistant that responds in seconds, runs discovery, qualifies leads, and books meetings with prospects who are ready to buy.</p>
+      <a class="cta" href="#get-started">Start Automating My Sales</a>
+      <div style="margin-top:14px;"><a class="back" href="index.html">← Back to Hub</a></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="grid">
+      <div class="card">
+        <h2>Why It Wins</h2>
+        <ul>
+          <li><strong>Instant response:</strong> engage within seconds across web, SMS, or email.</li>
+          <li><strong>Discovery done right:</strong> qualifies against your ICP and timeline.</li>
+          <li><strong>Hands-free booking:</strong> syncs calendars and confirms meetings.</li>
+          <li><strong>Scales without hiring:</strong> add capacity without adding headcount.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Proof You Can Feel</h2>
+        <ul>
+          <li>Recover leads you’d normally lose after hours.</li>
+          <li>Shorter time-to-first-meeting, higher show rates.</li>
+          <li>Cleaner pipeline with “tire-kickers” filtered out.</li>
+          <li>Attribution baked in: see revenue per conversation.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Works With Your Stack</h2>
+        <div>
+          <span class="pill">HubSpot</span><span class="pill">Salesforce</span><span class="pill">Calendly</span>
+          <span class="pill">Gmail/Outlook</span><span class="pill">Slack</span><span class="pill">Zapier/Make</span>
+        </div>
+      </div>
+    </div>
+
+    <section class="split" id="get-started">
+      <div class="panel">
+        <h2>Get a Free Pipeline Audit</h2>
+        <p class="small">Tell us where leads currently drop. We’ll map an automation that closes the gaps.</p>
+        <form action="#" method="post">
+          <label class="label">Name</label>
+          <input type="text" name="name" placeholder="Your name" required />
+          <label class="label">Email</label>
+          <input type="email" name="email" placeholder="you@company.com" required />
+          <label class="label">Your goal</label>
+          <textarea name="goal" placeholder="e.g., qualify faster, increase booked meetings, recover after-hours leads"></textarea>
+          <button class="cta" type="submit" style="margin-top:14px;">Send My Audit</button>
+        </form>
+      </div>
+      <div class="panel">
+        <h2>What the AI Actually Does</h2>
+        <ul>
+          <li>Answers inbound in <strong>&lt;5s</strong> via site chat, SMS, or email.</li>
+          <li>Asks tailored discovery questions and scores leads.</li>
+          <li>Books meetings, sends reminders, and handles reschedules.</li>
+          <li>Posts conversation summaries to your CRM + Slack.</li>
+        </ul>
+        <p class="small">Security-first: PII redaction, audit logs, and role-based access available.</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="footer">© 2025 Transform with AI</div>
+</body>
+</html>
