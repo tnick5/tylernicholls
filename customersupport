@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Customer Support That Sells</title>
+  <meta name="description" content="Turn support into a profit center. 24/7 instant answers, human-like conversations, and built-in upsells."/>
+  <style>
+    :root{--brand:#e11d48;--bg:#190b11;--card:#26101a;--text:#ffeaf0;--muted:#ffb3c2}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Arial,sans-serif;background:linear-gradient(180deg,#190b11,#1b0d13 50%,#1c0e15);color:var(--text);line-height:1.6}
+    .wrap{max-width:1100px;margin:0 auto;padding:64px 20px}
+    header{text-align:center;padding:56px 20px 24px}
+    .eyebrow{letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+    h1{font-size: clamp(2rem,4vw,3rem); margin:.35em 0 .2em}
+    .sub{color:var(--muted);max-width:760px;margin:0 auto}
+    .cta{display:inline-block;margin-top:24px;background:var(--brand);padding:14px 22px;border-radius:10px;font-weight:700;color:#330710}
+    .cta:hover{filter:brightness(1.05)}
+    .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:28px}
+    .card{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:20px}
+    h2{font-size:1.4rem;margin:0 0 .4rem}
+    ul{margin:.4rem 0 0;padding-left:20px}
+    .split{display:grid;gap:28px;grid-template-columns:1.1fr .9fr;align-items:start;margin-top:40px}
+    .panel{background:var(--card);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:22px}
+    .small{font-size:.9rem;color:var(--muted)}
+    .back{display:inline-block;margin-top:14px;color:#ffd1da}
+    .pill{display:inline-block;font-size:.85rem;color:#ffdce3;border:1px solid rgba(255,255,255,.18);padding:6px 10px;border-radius:999px;margin:6px 6px 0 0}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">AI Customer Support That Sells</div>
+      <h1>Support That Pays for Itself</h1>
+      <p class="sub">Transform your helpdesk into a revenue engine. AI answers instantly, delights customers, and recommends the right upgrades at the right moment.</p>
+      <a class="cta" href="#pilot">Upgrade My Support with AI</a>
+      <div><a class="back" href="index.html">← Back to Hub</a></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="grid">
+      <div class="card">
+        <h2>Customer Experience, Elevated</h2>
+        <ul>
+          <li><strong>Instant answers</strong> 24/7 via web, email, chat, and SMS.</li>
+          <li><strong>Human-like tone</strong> with brand voice control.</li>
+          <li><strong>Flawless handoff</strong> to humans for edge cases.</li>
+          <li><strong>Actionable analytics</strong> on intent, CSAT, and revenue.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Revenue on Every Ticket</h2>
+        <ul>
+          <li>Context-aware <strong>upsells</strong> and <strong>cross-sells</strong>.</li>
+          <li>Built-in <strong>checkout</strong> for frictionless purchases.</li>
+          <li>Automated <strong>renewal nudges</strong> and win-back flows.</li>
+          <li>Dynamic <strong>promotions</strong> based on inventory and margin.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Plays Nice With</h2>
+        <div>
+          <span class="pill">Zendesk</span><span class="pill">Freshdesk</span><span class="pill">Intercom</span>
+          <span class="pill">Shopify</span><span class="pill">Stripe</span><span class="pill">Recharge</span>
+        </div>
+      </div>
+    </div>
+
+    <section class="split" id="pilot">
+      <div class="panel">
+        <h2>Start a 30-Day Revenue Pilot</h2>
+        <p class="small">We plug into your helpdesk, turn on AI replies with human review, and measure revenue per ticket.</p>
+        <form action="#" method="post">
+          <label class="small">Name</label>
+          <input type="text" name="name" placeholder="Your name" required />
+          <label class="small">Work Email</label>
+          <input type="email" name="email" placeholder="you@company.com" required />
+          <label class="small">Helpdesk Platform</label>
+          <input type="text" name="platform" placeholder="e.g., Zendesk + Shopify" />
+          <button class="cta" type="submit" style="margin-top:14px;">Launch My Pilot</button>
+        </form>
+      </div>
+
+      <div class="panel">
+        <h2>How It Works</h2>
+        <ul>
+          <li>Train on your FAQs, policies, and product catalog.</li>
+          <li>Deploy guardrailed AI responses with confidence scores.</li>
+          <li>Route tricky cases to agents with context and drafts.</li>
+          <li>Track CSAT, AHT, deflection, and incremental revenue.</li>
+        </ul>
+        <p class="small">Privacy-first and compliant. Opt-in redaction and data retention controls.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap" style="text-align:center;color:#ffb3c2;padding-bottom:40px;">
+    © 2025 Transform with AI
+  </footer>
+</body>
+</html>
